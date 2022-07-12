@@ -1,4 +1,0 @@
-from tistory import extract_conference_title, extract_conference_content
-
-extract_conference_title()
-extract_conference_content()

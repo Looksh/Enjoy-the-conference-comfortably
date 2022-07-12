@@ -32,3 +32,10 @@ def extract_conference_content():
         print(conference_location)
     return date, location
 
+# 리턴값이 두개가 되면 <type 'tuple'> 참고할 것
+
+def get_conference():
+    title = extract_conference_title()
+    content = extract_conference_content()
+    return title, content
+
