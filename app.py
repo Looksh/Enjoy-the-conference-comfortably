@@ -7,4 +7,5 @@ app = Flask("enjoy-the-conference-comfortably")
 def home():
     return render_template("home.html")
 
-app.run()
+app.run(debug = True)
+
